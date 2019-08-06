@@ -1,0 +1,33 @@
+{
+    "spec": {
+        "inputs": {
+            "Input": {
+                "type:file": {
+                    "format": "txt"
+                }
+            }
+        },
+        "outputs": {
+            "Output": {
+                "type:file": {
+                    "format": "txt"
+                }
+            }
+        }
+    },
+    "ui": {
+        "inputs": {
+            "Input": {
+                "label": "Input",
+                "index": 1,
+                "widget:none": null
+            }
+        },
+        "outputs": {
+            "Output": {
+                "label": "Output",
+                "index": 1
+            }
+        }
+    }
+}
