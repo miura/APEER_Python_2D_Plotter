@@ -13,8 +13,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Here we are copying all our files to the root directory of the container
 COPY ./apeer_main.py .
-COPY ./hello_world.py .
+COPY ./plot_2Dtrack.py .
 COPY ./module_specification.json .
+
+# mount volumes
+VOLUME [ "/input", "/output" ]
 
 # In this example, we would like to run our python command when the container starts.
 ENTRYPOINT [ "python", "./apeer_main.py" ]
