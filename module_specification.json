@@ -3,14 +3,14 @@
         "inputs": {
             "Input": {
                 "type:file": {
-                    "format": "txt"
+                    "format": "csv"
                 }
             }
         },
         "outputs": {
             "Output": {
                 "type:file": {
-                    "format": "txt"
+                    "format": "html"
                 }
             }
         }
@@ -20,13 +20,15 @@
             "Input": {
                 "label": "Input",
                 "index": 1,
+                "description": "csv file with track XY coordinates",
                 "widget:none": null
             }
         },
         "outputs": {
             "Output": {
                 "label": "Output",
-                "index": 1
+                "index": 1,
+                "description": "html with the track plot"
             }
         }
     }
