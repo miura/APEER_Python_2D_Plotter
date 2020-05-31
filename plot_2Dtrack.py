@@ -1,6 +1,11 @@
-import pandas as pd
+"""
+A script for plotting 2D cell tracking data produced by 
+IJM Epidermal Cell Tracking Module
 
-# Our main plotting package (must have explicit import of submodules)
+MIT License
+Copyright (c) 2020 Kota Miura
+"""
+import pandas as pd
 import bokeh.io
 import bokeh.plotting
 import holoviews as hv
